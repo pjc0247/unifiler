@@ -23,9 +23,12 @@ unifiler
     }
     public void Rini()
     {
+        Thread.Sleep(100);
         UnityEngine.Debug.Log("DEBUG");
     }
 ```
+![pf](pf2.png)
+<br><br>
 
 * 런타임에 오브젝트 온오프
 * 오브젝트별 소요시간
